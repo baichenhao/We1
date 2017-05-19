@@ -1,0 +1,149 @@
+.kuai1{
+	background-color: #f0f8ff;
+	width: 540px;
+	height: 280px;
+	padding: 5px;
+	float: left;
+}
+.k1{
+    background-color: #5f7ea0;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+.k2{
+    background-color: #5f7ea0;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+.k3{
+    background-color: #5f7ea0;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+.k4{
+    background-color: #5f7ea0;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+.kuai2{
+	background-color: #f0f8ff;
+	width: 280px;
+	height: 270px;
+	padding: 10px;
+	margin-left: 30px;
+	float: left;
+}
+.u1{
+	margin: 5px;
+	padding: 2px;
+	background-color: #5f7ea0;
+	width: 280px;
+	height: 80px;
+}
+.u2{
+	margin: 5px;
+	padding: 2px;
+	background-color: #5f7ea0;
+	width: 280px;
+	height: 80px;
+}
+.u3{
+	margin: 5px;
+	padding: 2px;
+	background-color: #5f7ea0;
+	width: 280px;
+	height: 80px;
+}
+.blackp{
+	width: 810px;
+	height: 510px;
+	background-color: black;
+	float: left;
+}
+.pinkp{
+	width: 800px;
+	height: 500px;
+	background-color: #DB7093;
+	float: left;
+	margin: 5px;
+}
+.redp{
+	width: 790px;
+	height: 490px;
+	background-color: red;
+	float: left;
+	margin: 5px;
+}
+.bluep{
+	background-color: blue;
+	width: 780px;
+	height: 200px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#i1{
+	background-color: #9ACD32;
+	width: 200px;
+	height: 70px;
+	margin: 2px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#i2{
+	background-color: #ADFF2F;
+	width: 560px;
+	height: 70px;
+	margin: 2px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#i3{
+	background-color: #90ee90;
+	width: 760px;
+	height: 127px;
+	margin: 10px;
+	margin-top: 0px;
+	float: left;
+}
+.deepbluep{
+	background-color: #4b0082;
+	width: 785px;
+	height: 250px;
+	margin: 2px;
+	margin-top: 2px;
+}
+#d1{
+	background-color: #7fff00;
+	width: 500px;
+	height: 235px;
+	margin: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	float: left;
+}
+#d2{
+	background-color: #ffff00;
+	width: 275px;
+	height: 235px;
+	float: left;
+	margin: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#yellowp{
+	background-color: #ffa500;
+	width: 780px;
+	height: 30px;
+	margin: 5px;
+}
