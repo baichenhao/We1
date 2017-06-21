@@ -1,0 +1,29 @@
+a{
+	text-decoration: none;
+}
+div ul li a{
+	color: black;
+	font-family: 宋体;
+	font-weight: bold;
+}
+div ul li a:hover{
+	color: red;
+	font-size: 17px;
+}
+div ul li{
+	float: left;
+	margin-left: 220px;
+	margin-bottom: 30px;
+}
+div{
+	text-align: center;
+}
+body{
+	background-image: url(../images/leibg.jpg);
+}
+img{
+	opacity: 0.3;
+}
+img:hover{
+	opacity: 1;
+}

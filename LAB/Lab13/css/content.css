@@ -1,0 +1,148 @@
+*{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	border: none;
+	list-style-type: none;
+}
+body{
+	font-size: 12px;
+	background-image: url(../images/bodybg.jpg);
+}
+a{
+	text-decoration: none;
+}
+#header{
+    height: 220px;
+    width: auto;
+    background-image: url(../images/headerbg.jpg);
+    background-position: 50% 40%;
+    background-repeat: repeat-x;
+}
+#logo{
+    height: 150px;
+    padding-top: 38px;
+    padding-left: 100px;
+}
+#logo a:hover{
+	background-color: #780000;
+}
+#kuai{
+	margin-top: 30px;
+	height: 30px;
+	width: auto;
+	background-image: url(../images/biaotibg.jpg);
+}
+#list{
+	margin-left: 125px;
+}
+#list ul li a{
+	color: white;
+	float: left;
+	width: 90px;
+	font-size: 16px;
+	font-family: 宋体;
+	font-weight: bold;
+	margin-left: 60px;
+	padding-top: 5px;
+}
+#kuai #list ul #l1 a{
+	color:#FFFF00;
+}
+#list ul li a:hover{
+	width: 90px;
+	font-size: 20px;
+	font-family: 楷体;
+	color: #FFFF00;
+}
+#so1 form input{
+	width: 160px;
+	height: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 3px;
+}
+#so2 form input{
+	width: 35px;
+	height: 25px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;	
+	float: left;
+	margin-top: 2px;	
+}
+#footer{
+	height: 105px;
+	background-image: url(../images/footerbg.jpg);
+}
+#footer #foot1 ul li a{
+	width:  66px;
+	color: #8B4513;
+	font-family: 宋体;
+	font-size:16px;
+	font-weight: bold;
+    margin-right: 40px;
+    padding-top: 10px;
+	float: left;
+}
+#footer #foot1 ul li a:hover{
+	font-family: 楷体;
+	width: 66px;
+}
+#footer #foot1 ul #f1 a{
+	margin-left: 380px;
+}
+#foot1{
+	width: auto;
+	height: 40px;
+}
+#foot2{
+   height: 10px;
+   width: 625px;
+   border-top-width: 2px;
+   border-top-style: solid;
+   border-top-color:#8B4513; 
+}
+#foot3{
+	color: #8B4513;
+	font-family: 宋体;
+	font-size: 16px;
+	margin-left: 400px;
+}
+#foot4{
+	color: #8B4513;
+	font-family: 宋体;
+	font-size: 16px;
+	margin-left: 450px;
+}
+#content{
+	margin-top: 30px;
+	height: 642px;
+	width:auto;
+}
+#miaobao{
+	width: 1000px;
+	font-family: 宋体;
+	font-size: 13px;
+	color: black;
+	padding-top: 5px;
+}
+#content1{
+	margin-top: 10px;
+	height: 600px;
+	width: 1000px;
+	background-image: url(../images/contentbg.jpg);
+}
+#c1 a img{
+	margin-top: 280px;
+	margin-left: 400px;
+	opacity: 0.5;
+}
+#c1 a img:hover{
+    opacity: 1;
+}
