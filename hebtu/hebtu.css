@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align: center;
+}
+#top{
+	box-shadow: inset 0px  20px 40px 0px #d3d3d3;
+	
+}
+#bianxian{
+	background-color: #333366;
+	width: 1001px;
+	height: 6px;
+	margin-left: 165px;
+}
+#biaoti{
+	height: 96px;
+	width: 1000px;
+	margin-left: 165px;
+	margin-top: 11px;
+}
+#banner{
+	float: left;
+}
+#sousuo{
+	float: right;
+	margin-top: 5px;
+}
+a{
+	float: right;
+	margin-left: 20px;
+	margin-right: 19px;
+	font-family: 宋体;
+	font-size: 10px;
+	color: #f99000;
+	text-decoration: none;
+}
+#xian{
+	border-top-color: #d6d6d6;
+	width: 1001px;
+	height: 1px;
+	margin-left: 165px;
+}
+#zhuti{
+	height: 452px;
+	width: 1201px;
+}
+#nav{
+		margin-top: 20px;
+		margin-left: 164px;
+		list-style:none;
+		line-height:27px;
+		}
+		#nav a:link,#nav a:visited{
+		display:block;
+		width:80px;
+		color: #666;
+		text-align:center;
+		text-decoration:none;
+		background:#ffffff;
+		}
+		#nav a:hover{
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		background:#0e6eb8;
+		}
+		#nav ul{list-style: none;}
+		#nav li{
+		float:left;
+		width: 80px;
+		}
+
+		#nav li ul li a:hover{
+		background:#0e6eb8;
+		}
+		li a{
+			font-size: 17px;
+			font-weight: bolder;
+
+		}
+		#nav li ul{
+		display:none;
+		}
+		#nav li.subMenuShow ul{
+		display:block;
+		}
+		#sd{
+			position: fixed;
+			left: 12px;
+		}
+		ul li{
+			margin-left: 35px;
+		}
+		#wps{
+			width: 1200px;
+			height: 397px;
+			border:5px solid #000;
+			margin:60px auto;
+			overflow: hidden;
+		}
