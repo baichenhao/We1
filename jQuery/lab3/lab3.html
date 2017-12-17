@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pingjia</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#kuai{
+			height: 290px;
+			width: 470px;
+			margin: 0 auto;
+			position: relative;
+		}
+		#kuai1{
+			height: 30px;
+			width: 470px;
+			background-color:#f3f8fe;
+			text-align: left;
+			padding-left: 15px;
+			padding-top: 7px;
+		}
+		#kuai2{
+			height: 28px;
+			width: 470px;			
+		}
+		img{
+			float: left;
+			margin-left: 15px;
+			margin-top: 5px;
+		}
+		input{
+			height: 170px;
+			width: 452px;
+			margin-top: 6px;
+			margin-left: 15px;
+		}
+		.wenben{
+			display: none;
+		}
+		button{
+			position: absolute;
+			bottom: 15px;
+			right: 10px;
+			background-color: white;
+		}
+		#tupian{
+			position: absolute;
+			bottom: 22px;
+			right: 13px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+    <div id="kuai">
+    	<div id="kuai1">宝贝与描述的相符（打分匿名）</div>
+    	<div id="kuai2">
+    	<img src="images/star0.png">
+    	<img src="images/star0.png">
+    	<img src="images/star0.png">
+    	<img src="images/star0.png">
+    	<img src="images/star0.png">
+    	</div>
+    	<input class="wenben" type="text" name="" value="请评价">
+    	<input class="wenben" type="text" name="" value="很差">
+    	<input class="wenben" type="text" name="" value="差">
+    	<input class="wenben" type="text" name="" value="一般">
+    	<input class="wenben" type="text" name="" value="好">
+    	<input class="wenben" type="text" name="" value="很好">
+    	<button>公开评论&nbsp&nbsp</button>
+    	<img id="tupian" src="images/sanjiao.png">
+    </div>
+</body>
+<script type="text/javascript">
+    var input=document.getElementsByClassName('wenben');
+   	var img=document.getElementsByTagName('img');//获得img这个数组
+   	input[0].style.display='block';
+   	for (var i = 0; i < img.length-1;i++) {
+   		img[i].index=i;//取得下标
+   		img[i].onmouseover=function(){
+   			for (var m =0; m < img.length; m++) {
+			    input[m].style.display='none';			    
+			}
+   			input[this.index+1].style.display='block';
+   			if(this.index<2){
+   				for (var j = 0;j<=this.index;j++) {
+   			        img[j].src="images/star1.png";   			    
+			    }	        	
+		    }
+		    if(this.index>=2){
+				for (var j = 0; j<=this.index; j++) {
+					img[j].src="images/star2.png";
+				}
+            }
+		    for (var k =this.index+1; k<img.length-1; k++) {
+		        img[k].src="images/star0.png";		        
+		    }     
+   		}   			
+		img[i].onmouseout=function(){
+			for (var m =img.length - 2; m >= 0; m--) {
+			    img[m].src="images/star0.png";
+			    input[m].style.display='none';			    
+			}
+			for (var m =img.length - 1; m >= 0; m--) {			    
+			    input[m].style.display='none';			    
+			}
+			input[0].style.display='block';
+	    }	
+    }
+   	
+</script>
+</html>
